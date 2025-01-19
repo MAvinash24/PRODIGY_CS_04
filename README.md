@@ -4,6 +4,8 @@
 
 This is a simple keylogger implemented in Python using the `pynput` library. It records keypress events and stores them in a log file for educational purposes only. The program writes logs with timestamps for each key pressed.
 
+---
+
 ### Features
 
 - **Logs Keystrokes**: Tracks every key press and records it with a timestamp.
@@ -20,6 +22,7 @@ This is a simple keylogger implemented in Python using the `pynput` library. It 
   - The directory and the log file are created automatically when the script is run, making the process seamless for the user.
   -  Note: After the first run, the keylogger will append new keystrokes to the existing keylog.txt file, continuing from where it left off, instead of overwriting the file.
 
+---
 
 ### Requirements
 
@@ -28,6 +31,8 @@ To run this project, you'll need to install the `pynput` library. You can instal
 ```bash
 pip install pynput
 ```
+
+---
 
 ### Installation
 
@@ -45,9 +50,3 @@ cd PRODIGY_CS_04
 ```bash
 python keylogger.py
 ```
-
-
-
-
-
-
