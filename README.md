@@ -18,6 +18,7 @@ This is a simple keylogger implemented in Python using the `pynput` library. It 
     ```
 
   - The directory and the log file are created automatically when the script is run, making the process seamless for the user.
+  -  Note: After the first run, the keylogger will append new keystrokes to the existing keylog.txt file, continuing from where it left off, instead of overwriting the file.
 
 
 ### Requirements
